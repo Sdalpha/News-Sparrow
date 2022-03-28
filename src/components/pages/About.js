@@ -1,9 +1,5 @@
 import React from "react";
-import {
-  FaGithubSquare,
-  FaInstagram,
-  FaLinkedin,
-} from "react-icons/fa";
+import { FaGithubSquare, FaInstagram, FaLinkedin } from "react-icons/fa";
 
 export default function About() {
   return (
@@ -46,7 +42,10 @@ export default function About() {
             </a>
           </div>
           <div className="col">
-            <a href="https://www.linkedin.com/in/satyajit-dutta-9a3b021b9/" target="_">
+            <a
+              href="https://www.linkedin.com/in/satyajit-dutta-9a3b021b9/"
+              target="_"
+            >
               <FaLinkedin />
             </a>
           </div>

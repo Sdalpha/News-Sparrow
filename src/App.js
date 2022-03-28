@@ -15,7 +15,7 @@ export default class App extends Component {
           <Navbar />
           <Routes>
             <Route path="/" element={<News />} />
-            <Route path="/about" element={<About/>} />
+            <Route path="/about" element={<About />} />
           </Routes>
         </Router>
       </>
