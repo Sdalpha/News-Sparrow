@@ -12,10 +12,10 @@ export class Navbar extends Component {
       <div>
         <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
           <div className="container-fluid">
-            <a className="navbar-brand" href="/">
+            <NavLink className="navbar-brand" to="/">
               {" "}
               <FaFeatherAlt /> News Sparrow
-            </a>
+            </NavLink>
             <button
               className="navbar-toggler"
               type="button"
@@ -34,12 +34,12 @@ export class Navbar extends Component {
               <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
                 <li className="nav-item">
                   <NavLink
+                    to="/News-Sparrow"
                     className="nav-link"
                     style={({ isActive }) => {
                       return { fontWeight: isActive ? "bold" : "" };
                     }}
                     aria-current="page"
-                    to="/"
                   >
                     Home
                   </NavLink>
